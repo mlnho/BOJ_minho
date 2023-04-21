@@ -27,7 +27,7 @@ public class Main {
 			} else if (x == 0) {
 				if (!maxheap.isEmpty()) {
 					// 만약 배열이 비어있지 않다면
-					// priorityQueue에 첫번째 값(최솟값)을 반환하고 제거, 비어있다면 null
+					// priorityQueue에 첫번째 값(최값)을 반환하고 제거, 비어있다면 null
 					System.out.println(maxheap.poll());
 				} else {
 					// 배열이 비어 있는 경우인데 0을 출력
