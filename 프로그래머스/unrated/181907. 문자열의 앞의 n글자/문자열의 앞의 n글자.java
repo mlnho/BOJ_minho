@@ -3,12 +3,7 @@ class Solution {
         String answer = "";
         
         
-        for(int i=0; i<my_string.length(); i++) {
-            answer += my_string.charAt(i);
-            if(n-1 == i) {
-                break;
-            }
-        }   
+       answer = my_string.substring(0,n);
     
         
         return answer;
